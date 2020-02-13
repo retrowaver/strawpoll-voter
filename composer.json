@@ -1,0 +1,25 @@
+{
+    "name": "retrowaver/strawpoll-voter",
+    "description": "Simple library for PHP that adds votes in strawpoll.me polls. Pretty fast since it uses concurrent requests.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "retrowaver",
+            "email": "23421260+retrowaver@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Retrowaver\\Strawpoll\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^6.5",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
