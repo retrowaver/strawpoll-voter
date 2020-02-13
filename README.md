@@ -8,7 +8,7 @@ Simple library for PHP that adds votes in strawpoll.me polls. Pretty fast since 
 
 ## Installation
 ```
-composer require retrowaver/strawpoll
+composer require retrowaver/strawpoll-voter
 ```
 
 ## Sample usage
